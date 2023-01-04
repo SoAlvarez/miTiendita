@@ -1,5 +1,5 @@
 * {
-  margin: 10;
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -23,18 +23,26 @@ a {
 }
 
 header {
-  background-color: #6B695F;
-  padding: 0.2rem;
+  background-color: #3f2d1b;
+  padding: 0.7rem;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+h1 {
+  margin-right: 47rem;
+}
+
+h3 {
+  text-align: center;
+  color: #3f2d1b;
+}
+
 main {
   flex-grow: 1;
   padding: 0.5rem;
-  background-color: #EEE8D4;
 }
 
 footer {
