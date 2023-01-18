@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 const NavBar = () => {
     return (
         <><nav>
-            <a href="#">Inicio</a>
-            <a href="#">Productos</a>
-            <a href="#">Contacto</a>
+            <Link to="/Inicio">Inicio</Link>
+            <Link to="/Cafe">Café</Link>
+            <Link to="/Accesorios">Accesorios</Link>
         </nav> <CartWidget />7</>
     );
 }
